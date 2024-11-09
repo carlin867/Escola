@@ -1,0 +1,217 @@
+@font-face {
+    font-family: "Staatliches-Regular";
+    src: url(Fonts/Staatliches-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: "Anton-Regular";
+    src: url(Fonts/Anton-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Oswald-VariableFont";
+    src: url(Fonts/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Cubismo";
+    src: url(Fonts/Cubismo.ttf);
+}
+
+@font-face {
+    font-family: "cubismo_mac";
+    src: url(Fonts/cubismo_mac.ttf);
+}
+
+@font-face {
+    font-family: "Jacquarda";
+    src: url(Fonts/JacquardaBastarda9-Regular.ttf);
+}
+
+@font-face {
+    font-family: "LibreBaskerville";
+    src: url(Fonts/LibreBaskerville-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "LibreBaskerville";
+}
+
+
+
+
+.menu {
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 4;
+    box-shadow: rgba(0, 0, 0, 0.226) 5px 5px 5px;
+
+}
+.menu h2 {
+    font-size: 30px;
+    color: #F5F5DC;
+}
+
+
+
+
+.introduction {
+    width: 100%;
+    height: 750px;
+    background-image: url(Images/DeWatermark.ai_1728911259188.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.introduction h1 {
+    font-size: 120px;
+    color: #000000;
+    -webkit-text-stroke: 2px rgb(213, 212, 212);
+}
+
+
+
+
+.conteudo {
+    width: 100%;
+    height: auto;
+    background-color: #D8CAB8;
+}
+
+
+
+
+.conceito-one {
+    width: 100%;
+    height: 100%;
+    background-color: #704214;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.21) 1px 3px 3px 5px;
+}
+.conceito-two {
+    width: 100%;
+    height: 100%;
+    background-color: #5D3A3A;;
+}
+
+
+
+
+.imagehistory {
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagehistory img {
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    width: 760px;
+}
+
+
+
+
+.textin-one {
+    font-size: 21px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.textin-one h3 {
+    margin-top: 30px;
+    color: #D8CAB8;
+}
+.textin-one p {
+    margin-top: 20px;
+    color: #D8CAB8;
+}
+
+
+
+
+.textin-two {
+    font-size: 21px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textin-two h3{
+    margin-top: 30px;
+color: #50C878;
+}
+.textin-two p{
+    margin-top: 20px;
+    color: #50C878;
+}
+
+
+
+
+.inform {
+    position: relative;
+    text-align: justify;
+    width: 85%;
+}
+.inform h3 {
+    padding-bottom: 30px;
+}
+
+
+.capa {
+    width: 100%;
+    height: 714px;
+    background-color: #505050;
+    z-index: 1;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+#esquerda {
+    width: 0;
+    height: 0;
+    border-top: 160vw solid #6C6C6C;
+    border-right: 55vw solid transparent;
+    position: relative;
+    z-index: 3;
+}
+
+.title-template {
+    position: relative;
+    font-size: 55px;
+    margin-left: 160px;
+    z-index: 3;
+    bottom: 147vw;
+    font-size: 28px;
+    width: 660px;
+    height: 30px;
+}
+
+.title-template h3 {
+    color: rgb(220, 220, 220);
+}
+
+#direita {
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: relative;
+    right: 12vw;
+}

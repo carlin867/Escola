@@ -1,0 +1,9 @@
+Coisas que definem o estilo do site:
+-Paleta de cores
+-Fonte
+-Site
+
+Coisas adicionais:
+-icone do site
+-login
+-página sobre citações

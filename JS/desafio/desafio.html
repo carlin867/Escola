@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="desafio.css">
+    <title>Desafios</title>
+  </head>
+  <body>
+    <div class="d">
+      <div class="titulo">
+        <h1>Desafios de JavaScript</h1>
+      </div>
+      <div class="campo">
+        <label for="inome">Nome:</label>
+        <input type="text" name="nome" id="inome" />
+      </div>
+      <div class="campo">
+        <label for="isobrenome">Sobrenome:</label>
+        <input type="text" name="sobrenome" id="isobrenome" />
+      </div>
+      <div class="campo">
+        <label for="icpf">CPF:</label>
+        <input type="number" name="cpf" id="icpf" maxlength="11"  >
+      </div>
+      <div class="click">
+        <button class="btn" onclick="clickBotao()">Enviar</button>
+      </div>
+      <div id="res">
+        Resultado...
+      </div>
+    </div>
+
+    <script src="desafio.js"></script>
+  </body>
+</html>

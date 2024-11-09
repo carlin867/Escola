@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>triangulo foda</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .bloco {
+        position: relative;
+        left: 43%;
+        width: 0;
+        height: 0;
+        top: 300px;
+
+    }
+
+    .triagulo {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .separator {
+        width: 0;
+        height: 0;
+    }
+
+    #red {
+        border-right: 10vw solid transparent;
+        border-bottom: 10vw solid red;
+        z-index: 1;
+    }
+
+    #blue {
+        border-left: 10vw solid transparent;
+        border-top: 10vw solid blue;
+        z-index: 2;
+        bottom: 192px;
+        position: relative;
+    }
+
+    .image-template {
+        width: 100%;
+    }
+</style>
+
+<body>
+    <div class="bloco">
+        <div class="separator" id="red">
+        </div>
+
+        <div class="separator" id="blue">
+        </div>
+    </div>
+</body>
+
+</html>

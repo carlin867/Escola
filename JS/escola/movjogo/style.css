@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: lightgreen;
+}
+    
+
+.corredor{
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: 579px;
+}
+.final{
+    width: 200px;
+    position: absolute;
+    right: 0;
+    top: 529px;
+}

@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "LoversQuarrelRegular";
+    src: url(fonts/LoversQuarrel-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: "Aurella";
+    src: url(fonts/Aurella.ttf);
+}
+
+body {
+    background-color: rgb(230, 213, 187);
+    
+}
+
+.about {
+    display: flex;
+    border: 30px solid transparent;
+    border-image: url("./132d0b11f96dcffaa700966900312a52.jpg") 150 round;
+}
+
+.left {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    width: 75%;
+    
+}
+
+.text h1 {
+    color: brown;
+    font-family: "Aurella";
+    font-size: 50px;
+}
+
+.text h2 {
+    font-size: 40px;
+    font-family: "LoversQuarrelRegular";
+}
+
+.rigth {
+    width: 50vw;
+}
+
+.rigth img {
+    width: 75%;
+    height: 75%;
+    border-radius: 20px;
+    margin-top: 90px ;
+}
