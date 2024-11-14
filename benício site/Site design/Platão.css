@@ -55,6 +55,7 @@
     box-shadow: rgba(0, 0, 0, 0.226) 5px 5px 5px;
 
 }
+
 .menu h2 {
     font-size: 30px;
     color: #F5F5DC;
@@ -74,6 +75,7 @@
     align-items: center;
 
 }
+
 .introduction h1 {
     font-size: 120px;
     color: #000000;
@@ -97,12 +99,14 @@
     height: 100%;
     background-color: #704214;
     position: relative;
-    box-shadow: rgba(0, 0, 0, 0.21) 1px 3px 3px 5px;
+    box-shadow: rgba(0, 0, 0, 0.21) 6px 0px 3px 1px;
 }
+
 .conceito-two {
     width: 100%;
     height: 100%;
-    background-color: #5D3A3A;;
+    background-color: #C3B091;
+
 }
 
 
@@ -113,16 +117,26 @@
     height: auto;
     width: 100%;
     display: flex;
+    overflow: hidden;
     justify-content: center;
     align-items: center;
 }
-.imagehistory img {
-    margin-top: 30px;
-    padding-bottom: 20px;
-    border-radius: 8px;
-    width: 760px;
+
+#structure {
+    width: 770px;
+    padding: 15px;
 }
 
+#imageh {
+
+    width: 760px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+#imageh img {
+    width: 100%;
+}
 
 
 
@@ -133,10 +147,12 @@
     justify-content: center;
     display: flex;
 }
+
 .textin-one h3 {
     margin-top: 30px;
     color: #D8CAB8;
 }
+
 .textin-one p {
     margin-top: 20px;
     color: #D8CAB8;
@@ -152,13 +168,15 @@
     justify-content: center;
     align-items: center;
 }
-.textin-two h3{
+
+.textin-two h3 {
     margin-top: 30px;
-color: #50C878;
+    color: #826644;
 }
-.textin-two p{
+
+.textin-two p {
     margin-top: 20px;
-    color: #50C878;
+    color: #826644;
 }
 
 
@@ -169,6 +187,7 @@ color: #50C878;
     text-align: justify;
     width: 85%;
 }
+
 .inform h3 {
     padding-bottom: 30px;
 }

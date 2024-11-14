@@ -7,10 +7,7 @@ body {
     background-color: rgb(230, 213, 187);
 }
 
-h1 {
-    text-align: center;
-    padding-top: 50px;
-}
+ 
 
 .main {
     display: flex;
